@@ -3,4 +3,3 @@ def test_is_tachycardic():
 
     expected = is_tachycardic("TAChycardic")
     assert expected == "True"
-

@@ -8,4 +8,3 @@ def is_tachycardic(word):
     else:
         output = "True"
     return output
-
