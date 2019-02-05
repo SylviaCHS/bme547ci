@@ -1,5 +1,7 @@
 def is_tachycardic(word):
-    result = word.find('tachycardic')
+
+    word_lc = word.lower()
+    result = word_lc.find('tachycardic')
 
     if result == -1:
         output = "False"
