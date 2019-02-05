@@ -11,7 +11,8 @@ def test_is_tachycardic():
 @pytest.mark.parametrize("test_list, expected", [("tachycardic", "True"),
                                                  ("   TACHycardic", "True"),
                                                  ("tachycaric", "False"),
-                                                 ("  Tachycardic  ,.,. ", "True"),
+                                                 ("  Tachycardic  ,.,. ",
+                                                  "True"),
                                                  ("..Tachycaey", "False"),
                                                  ("Apple", "False"),
                                                  ("!!TACHYCARDIC??!!", "True")
