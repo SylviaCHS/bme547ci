@@ -4,7 +4,7 @@ def is_tachycardic(word):
     result = word_lc.find('tachycardic')
 
     if result == -1:
-        output = "False"
+        output = bool(0)
     else:
-        output = "True"
+        output = bool(1)
     return output
